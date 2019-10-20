@@ -2,7 +2,8 @@ version: '3'
 services:
   app:
     build: .
-    image: yukin01/go-sandbox-hello-world-container:0.0.1
+    image: yukin01/go-sandbox-echo-container:0.0.1
+    container_name: echo-app
     volumes:
       - ./:/go/src/app
     ports:

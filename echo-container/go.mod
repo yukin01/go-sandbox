@@ -1,4 +1,4 @@
-module github.com/yukin01/go-sandbox/hello-world
+module github.com/yukin01/go-sandbox/echo-container
 
 go 1.13
 

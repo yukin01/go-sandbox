@@ -5,8 +5,8 @@ WORKDIR /go/src/app
 RUN apk add --no-cache \
         alpine-sdk \
         git \
-    && go get github.com/pilu/fresh
+    && go get github.com/oxequa/realize
 
 EXPOSE 8080
 
-CMD ["fresh"]
+CMD ["realize", "start"]

@@ -2,6 +2,7 @@ version: '3'
 services:
   app:
     build: .
+    image: yukin01/go-sandbox-hello-world-container:0.0.1
     volumes:
       - ./:/go/src/app
     ports:
